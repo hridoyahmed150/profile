@@ -1,0 +1,125 @@
+<swiper #swiper [config]="config">
+  <ng-template swiperSlide>
+    <div class="first-sec relative w-full h-full">
+      <ng-particles class="id absolute top-0 left-0 w-full h-full z-[-1]" [id]="id" [options]="particlesOptions"
+        [particlesInit]="particlesInit">
+      </ng-particles>
+      <div class="wrap absolute w-[100%]">
+
+        <div class="grid md:grid-cols-2 grid-flow-row  py-[15rem] sm:py-[20rem]">
+          <div class="heading grid grid-cols-6 sm:items-center">
+            <div
+              class="col-start-2 sm:col-start-2 md:col-start-2 lg:col-start-3 xl:col-start-3 2xl:col-start-3 col-span-4 text-center md:text-left">
+              <h1
+                class="animate__animated animate__fadeInUp space-y-4 2xl:text-[6rem] xl:text-[5rem] lg:text-[4rem] md:text-[3rem] sm:text-[2.5rem] text-[1.8rem] font-[700] leading-[1.2] pb-[2rem] text-[#fff]">
+                Frontend Developer.
+              </h1>
+              <p
+                class="animate__animated animate__fadeInUp font-sans 2xl:text-[30px] xl:text-[25px] lg:text-[20px] md:text-[15px] sm:text-[13px] text-[11px] text-[#fff]">
+                I like to craft solid and scalable frontend products with great user experiences.
+              </p>
+            </div>
+          </div>
+          <div class="profail animate__animated animate__fadeInBottomRight">
+            <img
+              class="2xl:w-[450px] xl:w-[350px] lg:w-[300px] md:w-[300px]
+              2xl:h-[400px] xl:h-[275px] lg:h-[250px] md:h-[250px] w-[300px] h-[250px] mt-[2rem] md:mt-[1px] ease-in m-auto rounded-md"
+              src="../../assets/pro-123.jpg" alt="pro.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template swiperSlide>
+    <div class="work-container relative w-[100%] h-[100%] flex items-center">
+      <div class="align-middle pt-[10%] text-center md:text-left w-[90%] md:w-auto">
+        <div class="work grid grid-cols-1 md:grid-cols-7 w-[80%] m-auto">
+          <div class=" md:col-start-1 md:col-span-3 mb-[2rem]">
+            <h1
+              class="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[55px] text-[#ccf381] font-bold animate__animated animate__fadeInUp">
+              Design
+            </h1>
+            <p
+              class="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#3d155f] font-bold animate__animated animate__fadeInUp">
+              I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I
+              design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me
+              (~_^).
+              I'm committed to creating fluent user experiences while staying fashionable.
+            </p>
+          </div>
+        </div>
+        <div class="work grid grid-cols-1 md:grid-cols-7 w-[80%] m-auto justify-end">
+          <div class="md:col-start-5 md:col-span-3">
+            <h1
+              class="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[55px] text-[#ccf381] font-bold">
+              Engineering
+            </h1>
+            <p
+              class="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#3d155f] font-bold animate__animated animate__fadeInUp">
+              In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function
+              independently of them to deliver fast, resilient solutions optimized for scale — performance and
+              scalabilty
+              are priorities on my radar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="bg-png-dot hidden lg:inline" src="../../assets/image/dot-png-1.png" alt="dot-png-1">
+      <img class="bg-png-grid hidden lg:inline" src="../../assets/image/grid-png-2.png" alt="dot-png-2">
+    </div>
+
+  </ng-template>
+
+  <ng-template swiperSlide>
+
+    <div class="wraper-contant w-[100%] h-[100%] bg-[#212a32fc] place-content-center flex items-center">
+      <div class="flex flex-col md:flex-row text-center items-center md:text-left">
+        <div class="test w-[20rem] lg:w-[30rem] md:mr-[2rem] lg:mr-[2rem] xl:w-[40rem] xl:mr-[4rem] 2xl:mr-[6rem] ">
+          <img class="m-[auto]" src="../../assets/image/transparent-background-PNG.png"
+            alt="transparent-background-PNG">
+        </div>
+        <div class="inner-content md:flex md:flex-col md:justify-center">
+          <h1 class="text-[2rem] lg:text-[4rem] xl:text-[5rem] 2xl:text-[6rem] text-[#75d2fd] leading-[1.1] font-[700]">
+            Over the <br>
+            past 5 years,
+          </h1>
+          <div class="w-[30rem]">
+            <p
+              class="animate__animated animate__fadeInUp font-sans text-[14px] 2xl:text-[25px] text-[#fff] pt-[2.5rem] pb-[.75rem]">
+              I've built products for companies and businesses around the globe ranging from marketing websites to
+              complex
+              solutions and enterprise apps with focus on fast, elegant and accessible user experiences.
+            </p>
+            <p class="animate__animated animate__fadeInUp font-sans text-[14px] 2xl:text-[25px] text-[#fff] py-2">
+              Currently, I work at Shopify as a Senior UX Developer and Accessibility advocate crafting thoughtful and
+              inclusive experiences that adhere to web standards for over a million merchants across the world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+
+
+  <ng-template swiperSlide class="tast">
+    <div class="work-section bg-[#F9F9F9] w-[100%] h-[100%] flex justify-center items-center">
+      <div class="px-[25px] py-[25px] md:px-[300px] md:py-[100px] bg-[#fff]">
+        <div class="work-content text-center">
+          <h1 class="text-[25px] lg:text-[75px] text-[#2e3c91] font-[700]">
+            I build & design stuff
+          </h1>
+          <p class="text-[12px] lg:text-[25px] font-[700] leading-[4rem]">
+            Open source projects, web apps and experimentals.
+          </p>
+          <div class="mt-[2rem] md:mt-[5rem]">
+            <a routerLink="/hridoyahmed/works"
+              class="responsib-button tracking-[2px] text-[15px] px-[100px] text-[#2e3c91] py-[15px] font-[700]">
+              SEE MY WORK -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</swiper>
