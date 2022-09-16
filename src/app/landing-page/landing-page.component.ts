@@ -25,14 +25,14 @@ export class LandingPageComponent implements OnInit {
     spaceBetween: 0,
     // mousewheel: true,
     freeMode: true,
-    speed:800,
+    speed: 800,
     // pagination: {
     //   clickable: true,
     // }
     mousewheel: {
       forceToAxis: true,
       sensitivity: 1,
-      releaseOnEdges: true,
+      releaseOnEdges: true
     }
   };
 
