@@ -23,12 +23,10 @@ export class LandingPageComponent implements OnInit {
     direction: 'vertical',
     slidesPerView: 1,
     spaceBetween: 0,
-    // mousewheel: true,
+
     freeMode: true,
     speed: 800,
-    // pagination: {
-    //   clickable: true,
-    // }
+
     mousewheel: {
       forceToAxis: true,
       sensitivity: 1,
@@ -135,9 +133,7 @@ export class LandingPageComponent implements OnInit {
     await loadFull(engine);
   }
 
-  //   async function particlesInit(engine: Engine): Promise<void> {
-  //   await loadFull(engine);
-  // }
+
 
 
 
