@@ -13,6 +13,7 @@ import { BlanckLayoutComponent } from './layout/blanck-layout/blanck-layout.comp
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { SliderItemComponent } from './module/landing/slider-item/slider-item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './layout/footer/footer.component';
     HeaderComponent,
     FooterComponent,
     CommonLayoutComponent,
-    BlanckLayoutComponent
+    BlanckLayoutComponent,
+    SliderItemComponent
   ],
   imports: [
     BrowserModule,
