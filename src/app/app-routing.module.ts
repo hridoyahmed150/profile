@@ -9,19 +9,27 @@ const routes: Routes = [
     redirectTo: 'hridoyahmed',
     pathMatch: 'full'
   },
+
   {
     path: 'hridoyahmed',
     component: CommonLayoutComponent,
     children: [
       {
-        path: '',
-        component: LandingPageComponent
-      },
-      {
-        path: 'works',
-        component: ProjectViewComponent
-      },
-    ]
+        path: 'hridoyahmed',
+        loadChildren: () => import('./modules/classes-module/classes.module').then(m =>
+          m.ClassesModule
+        )
+      }
+    children: [
+        {
+          path: '',
+          component: LandingPageComponent
+        },
+        {
+          path: 'works',
+          component: ProjectViewComponent
+        },
+      ]
   },
   {
     path: '**',
