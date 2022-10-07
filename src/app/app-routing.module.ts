@@ -15,21 +15,22 @@ const routes: Routes = [
     component: CommonLayoutComponent,
     children: [
       {
-        path: 'hridoyahmed',
-        loadChildren: () => import('./modules/classes-module/classes.module').then(m =>
-          m.ClassesModule
+        path: '',
+        loadChildren: () => import('./module/landing/landing.module').then(m =>
+          m.LandingModule
         )
       }
-    children: [
-        {
-          path: '',
-          component: LandingPageComponent
-        },
-        {
-          path: 'works',
-          component: ProjectViewComponent
-        },
-      ]
+    ]
+    // children: [
+    //     {
+    //       path: '',
+    //       component: LandingPageComponent
+    //     },
+    //     {
+    //       path: 'works',
+    //       component: ProjectViewComponent
+    //     },
+    //   ]
   },
   {
     path: '**',
