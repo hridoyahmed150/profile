@@ -1,9 +1,8 @@
 import { NgModule, ViewChild } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CommonLayoutComponent } from './layout/common-layout/common-layout.component';
-import { ProjectViewComponent } from './project-view/project-view.component';
-
+import { LandingPageComponent } from './module/landing/landing-page/landing-page.component';
+import { ProjectViewComponent } from './module/project/project-view/project-view.component';
 const routes: Routes = [
   {
     path: '',
