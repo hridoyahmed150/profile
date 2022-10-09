@@ -25,7 +25,6 @@ import { ShareModule } from './share/share.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgParticlesModule,
     BrowserAnimationsModule,
     ShareModule
   ],
