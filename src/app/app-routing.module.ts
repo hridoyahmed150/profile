@@ -1,15 +1,12 @@
 import { NgModule, ViewChild } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonLayoutComponent } from './layout/common-layout/common-layout.component';
-import { LandingPageComponent } from './module/landing/landing-page/landing-page.component';
-import { ProjectViewComponent } from './module/project/project-view/project-view.component';
 const routes: Routes = [
   {
     path: '',
     redirectTo: 'hridoyahmed',
     pathMatch: 'full'
   },
-
   {
     path: 'hridoyahmed',
     component: CommonLayoutComponent,
@@ -29,7 +26,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
