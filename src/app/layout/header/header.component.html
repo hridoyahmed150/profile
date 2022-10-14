@@ -21,10 +21,11 @@
             <ul class="navbar-nav flex flex-col">
               <li class="nav-item p-2">
                 <a class="cursor-pointer nav-link text-black font-[700]
-                text-[20px] pl-[5px]" href="#">Home</a>
+                text-[20px] pl-[5px]" [routerLink]="['/']" routerLinkActive="router-link-active">Home</a>
               </li>
-              <li routerLink="hridoyahmed/works" class="nav-item p-2">
-                <a class="nav-link text-black font-[700] text-[20px] pl-[5px]" href="#">work</a>
+              <li class="nav-item p-2">
+                <a class="nav-link text-black font-[700] text-[20px] pl-[5px]" [routerLink]="['/hridoyahmed/works']"
+                  routerLinkActive="router-link-active">Works</a>
               </li>
               <li class="nav-item p-2">
                 <h2 class="text-[gray] opacity-[.7] tracking-[.15em] text-[20px] pt-[10px] pl-[5px] font-[700]">SAY
