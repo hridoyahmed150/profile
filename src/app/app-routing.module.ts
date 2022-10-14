@@ -21,16 +21,6 @@ const routes: Routes = [
         )
       }
     ]
-    // children: [
-    //     {
-    //       path: '',
-    //       component: LandingPageComponent
-    //     },
-    //     {
-    //       path: 'works',
-    //       component: ProjectViewComponent
-    //     },
-    //   ]
   },
   {
     path: '**',
