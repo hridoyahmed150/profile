@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgParticlesModule } from "ng-particles";
-
 import { CommonLayoutComponent } from './layout/common-layout/common-layout.component';
 import { BlanckLayoutComponent } from './layout/blanck-layout/blanck-layout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
