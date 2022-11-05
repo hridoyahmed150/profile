@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonLayoutComponent } from './layout/common-layout/common-layout.component';
-import { BlanckLayoutComponent } from './layout/blanck-layout/blanck-layout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
@@ -16,7 +15,6 @@ import { ShareModule } from './share/share.module';
     HeaderComponent,
     FooterComponent,
     CommonLayoutComponent,
-    BlanckLayoutComponent,
     SliderItemComponent
   ],
   imports: [
